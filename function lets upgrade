@@ -1,0 +1,19 @@
+def function(list):
+    num_list=[]
+    for i in list:
+        mul=i*i
+        num_list.append(mul)
+    
+    sum=0
+    for i in num_list:
+        sum+=i
+
+    print("sum of squares of given integers is: ", sum)
+
+n=int(input("Enter how many element you want to square and add: "))
+list=[]
+for i in range(n):
+    list.append(int(input()))
+
+function(list)
+
